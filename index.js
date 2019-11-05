@@ -4,7 +4,7 @@ function takeANumber(katzDeli, name) { //I'm creating a function called takeANum
    katzDeli.push(name) //Pushes element to the end of the array
    return `Welcome, ${name}. You are number ${katzDeli.length} /* When I call the function it will return the name and counts the array number in katzDeliLine */ in line.`;
 }
-   
+
    function nowServing(katzDeli) {
   if (katzDeli.length > 0) { //In this case 2
     var nowServing = katzDeli[0]; // Grabs the first index/name Ada
@@ -15,7 +15,7 @@ function takeANumber(katzDeli, name) { //I'm creating a function called takeANum
   }
 // nowserving(katzDeliLine) returns "Currently serving Ada."
 // katzDelinLine is now "Steve" because this function shifts out "Ada"
-   
+
 function currentLine(line) {
   if (line.length === 0) {
     return `The line is currently empty.`;
